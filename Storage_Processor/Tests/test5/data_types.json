@@ -1,0 +1,82 @@
+[
+  {
+    "encoding": "inplace",
+    "label": "uint256",
+    "numberOfBytes": 32,
+    "type": "t_uint256",
+    "base": null,
+    "members": null
+  },
+  {
+    "encoding": "inplace",
+    "label": "uint64",
+    "numberOfBytes": 8,
+    "type": "t_uint64",
+    "base": null,
+    "members": null
+  },
+  {
+    "base": "t_uint64",
+    "encoding": "inplace",
+    "label": "uint64[3]",
+    "numberOfBytes": 32,
+    "type": "t_array(t_uint64)3_storage",
+    "members": null
+  },
+  {
+    "encoding": "bytes",
+    "label": "string",
+    "numberOfBytes": 32,
+    "type": "t_string_storage",
+    "base": null,
+    "members": null
+  },
+  {
+    "base": "t_string_storage",
+    "encoding": "dynamic_array",
+    "label": "string[]",
+    "numberOfBytes": 32,
+    "type": "t_array(t_string_storage)dyn_storage",
+    "members": null
+  },
+  {
+    "base": "t_uint256",
+    "encoding": "dynamic_array",
+    "label": "uint256[]",
+    "numberOfBytes": 32,
+    "type": "t_array(t_uint256)dyn_storage",
+    "members": null
+  },
+  {
+    "encoding": "inplace",
+    "label": "struct Contract8.StructType",
+    "members": [
+      {
+        "offset": 0,
+        "slot": "0x0000000000000000000000000000000000000000000000000000000000000000",
+        "type": "t_string_storage"
+      },
+      {
+        "offset": 0,
+        "slot": "0x0000000000000000000000000000000000000000000000000000000000000001",
+        "type": "t_uint256"
+      },
+      {
+        "offset": 0,
+        "slot": "0x0000000000000000000000000000000000000000000000000000000000000002",
+        "type": "t_array(t_uint256)dyn_storage"
+      }
+    ],
+    "numberOfBytes": 96,
+    "type": "t_struct(StructType)_storage",
+    "base": null
+  },
+  {
+    "base": "t_struct(StructType)_storage",
+    "encoding": "inplace",
+    "label": "struct Contract8.StructType[2]",
+    "numberOfBytes": 192,
+    "type": "t_array(t_struct(StructType)_storage)2_storage",
+    "members": null
+  }
+]

@@ -1,0 +1,26 @@
+[
+  {
+    "label": "varUint",
+    "type": "t_uint256",
+    "slot": "0x0000000000000000000000000000000000000000000000000000000000000000",
+    "offset": 0
+  },
+  {
+    "label": "arrFixedUint64",
+    "type": "t_array(t_uint64)3_storage",
+    "slot": "0x0000000000000000000000000000000000000000000000000000000000000001",
+    "offset": 0
+  },
+  {
+    "label": "arrDynamicString",
+    "type": "t_array(t_string_storage)dyn_storage",
+    "slot": "0x0000000000000000000000000000000000000000000000000000000000000002",
+    "offset": 0
+  },
+  {
+    "label": "arrStructFixed",
+    "type": "t_array(t_struct(StructType)_storage)2_storage",
+    "slot": "0x0000000000000000000000000000000000000000000000000000000000000003",
+    "offset": 0
+  }
+]

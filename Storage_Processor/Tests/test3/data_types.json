@@ -1,0 +1,34 @@
+[
+  {
+    "encoding": "inplace",
+    "label": "uint64",
+    "numberOfBytes": 8,
+    "type": "t_uint64",
+    "base": null,
+    "members": null
+  },
+  {
+    "encoding": "inplace",
+    "label": "uint256",
+    "numberOfBytes": 32,
+    "type": "t_uint256",
+    "base": null,
+    "members": null
+  },
+  {
+    "base": "t_uint64",
+    "encoding": "inplace",
+    "label": "uint64[4]",
+    "numberOfBytes": 32,
+    "type": "t_array(t_uint64)4_storage",
+    "members": null
+  },
+  {
+    "base": "t_uint64",
+    "encoding": "dynamic_array",
+    "label": "uint64[]",
+    "numberOfBytes": 32,
+    "type": "t_array(t_uint64)dyn_storage",
+    "members": null
+  }
+]

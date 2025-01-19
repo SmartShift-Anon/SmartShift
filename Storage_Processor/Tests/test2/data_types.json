@@ -1,0 +1,26 @@
+[
+  {
+    "encoding": "bytes",
+    "label": "string",
+    "numberOfBytes": 32,
+    "type": "t_string_storage",
+    "base": null,
+    "members": null
+  },
+  {
+    "base": "t_string_storage",
+    "encoding": "dynamic_array",
+    "label": "string[]",
+    "numberOfBytes": 32,
+    "type": "t_array(t_string_storage)dyn_storage",
+    "members": null
+  },
+  {
+    "encoding": "inplace",
+    "label": "uint256",
+    "numberOfBytes": 32,
+    "type": "t_uint256",
+    "base": null,
+    "members": null
+  }
+]

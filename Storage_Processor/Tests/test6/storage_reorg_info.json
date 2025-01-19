@@ -1,0 +1,8 @@
+[
+  {
+    "label": "complexVar",
+    "type": "t_struct(ComplexStruct)_storage",
+    "slot": "0x0000000000000000000000000000000000000000000000000000000000000000",
+    "offset": 0
+  }
+]

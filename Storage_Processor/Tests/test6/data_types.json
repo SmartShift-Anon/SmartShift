@@ -1,0 +1,97 @@
+[
+  {
+    "encoding": "bytes",
+    "label": "string",
+    "numberOfBytes": 32,
+    "type": "t_string_storage",
+    "base": null,
+    "members": null
+  },
+  {
+    "encoding": "inplace",
+    "label": "uint256",
+    "numberOfBytes": 32,
+    "type": "t_uint256",
+    "base": null,
+    "members": null
+  },
+  {
+    "encoding": "inplace",
+    "label": "bool",
+    "numberOfBytes": 1,
+    "type": "t_bool",
+    "base": null,
+    "members": null
+  },
+  {
+    "base": "t_uint256",
+    "encoding": "dynamic_array",
+    "label": "uint256[]",
+    "numberOfBytes": 32,
+    "type": "t_array(t_uint256)dyn_storage",
+    "members": null
+  },
+  {
+    "encoding": "inplace",
+    "label": "address",
+    "numberOfBytes": 20,
+    "type": "t_address",
+    "base": null,
+    "members": null
+  },
+  {
+    "base": "t_address",
+    "encoding": "inplace",
+    "label": "address[5]",
+    "numberOfBytes": 160,
+    "type": "t_array(t_address)5_storage",
+    "members": null
+  },
+  {
+    "encoding": "bytes",
+    "label": "bytes",
+    "numberOfBytes": 32,
+    "type": "t_bytes_storage",
+    "base": null,
+    "members": null
+  },
+  {
+    "encoding": "inplace",
+    "label": "struct StructuredContract.ComplexStruct",
+    "members": [
+      {
+        "offset": 0,
+        "slot": "0x0000000000000000000000000000000000000000000000000000000000000000",
+        "type": "t_string_storage"
+      },
+      {
+        "offset": 0,
+        "slot": "0x0000000000000000000000000000000000000000000000000000000000000001",
+        "type": "t_uint256"
+      },
+      {
+        "offset": 0,
+        "slot": "0x0000000000000000000000000000000000000000000000000000000000000002",
+        "type": "t_bool"
+      },
+      {
+        "offset": 0,
+        "slot": "0x0000000000000000000000000000000000000000000000000000000000000003",
+        "type": "t_array(t_uint256)dyn_storage"
+      },
+      {
+        "offset": 0,
+        "slot": "0x0000000000000000000000000000000000000000000000000000000000000004",
+        "type": "t_array(t_address)5_storage"
+      },
+      {
+        "offset": 0,
+        "slot": "0x0000000000000000000000000000000000000000000000000000000000000009",
+        "type": "t_bytes_storage"
+      }
+    ],
+    "numberOfBytes": 320,
+    "type": "t_struct(ComplexStruct)_storage",
+    "base": null
+  }
+]

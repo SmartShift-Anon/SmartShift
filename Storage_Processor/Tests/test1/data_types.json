@@ -1,0 +1,18 @@
+[
+  {
+    "encoding": "bytes",
+    "label": "string",
+    "numberOfBytes": 32,
+    "type": "t_string_storage",
+    "base": null,
+    "members": null
+  },
+  {
+    "encoding": "inplace",
+    "label": "uint256",
+    "numberOfBytes": 32,
+    "type": "t_uint256",
+    "base": null,
+    "members": null
+  }
+]
