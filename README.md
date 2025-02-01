@@ -37,8 +37,7 @@ SmartShift employs a structured migration mechanism to enhance security:
 - **Ensures Data Integrity**: Verifies and reconstructs migrated states to prevent corruption.
 - **Structured Execution**: Optimized transaction processing reduces system-wide disruptions.
 
-## 📂 Installation & Usage
-### Requirements
+## 📂 Requirements
 - Python 3.9+
 - Go 1.19+
 - Infura, Etherscan
